@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glass Dialer</string>
+    <string name="tab_calls">المكالمات</string>
+    <string name="tab_contacts">جهات الاتصال</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="no_calls">لا توجد مكالمات</string>
+    <string name="no_contacts">لا توجد جهات اتصال</string>
+    <string name="need_permission">اسمح بالصلاحيات من إعدادات التطبيق عشان تظهر البيانات</string>
+    <string name="call_incoming">واردة</string>
+    <string name="call_outgoing">صادرة</string>
+    <string name="call_missed">فائتة</string>
+    <string name="call_rejected">مرفوضة</string>
+    <string name="private_number">رقم خاص</string>
+    <string name="call_permission_needed">اسمح بصلاحية الاتصال أولًا</string>
+
+    <color name="bg_top">#FFEAF1FF</color>
+    <color name="bg_bottom">#FFF7EEFF</color>
+    <color name="glass_fill">#99FFFFFF</color>
+    <color name="glass_stroke">#B3FFFFFF</color>
+    <color name="avatar_bg">#260066FF</color>
+    <color name="text_primary">#E6000000</color>
+    <color name="text_secondary">#8A000000</color>
+    <color name="tab_inactive">#8A000000</color>
+    <color name="accent_green">#FF00BD13</color>
+    <color name="accent_blue">#FF0066FF</color>
+    <color name="danger_red">#FFED4040</color>
+
+    <style name="Theme.GlassDialer" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/accent_blue</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/bg_top</item>
+    </style>
+
+    <style name="TabItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="TabLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/tab_inactive</item>
+    </style>
+</resources>
